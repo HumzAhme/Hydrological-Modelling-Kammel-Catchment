@@ -1,5 +1,8 @@
 # Hydrological Modelling of the Kammel Catchment
 
+<img width="720" height="720" alt="hydrologic_modeling-3336510819" src="https://github.com/user-attachments/assets/02f535e4-42f0-4714-834e-b14cf224671c" />
+
+
 Conceptual rainfall-runoff modelling of the Kammel catchment (Bavaria, Germany) using three model structures — **GR4J**, **HBV**, and **GR6J** — to simulate streamflow for 2011–2020, quantify uncertainty from four sources (parametric, structural, calibration-period, data-source), and run a counterfactual climate-change analysis, for the group's portfolio report (`report/report.qmd`, course: Hydrological Modeling, instructor Dr. Larisa Tarasova).
 
 This README documents the whole project as it stands: every data source, every model's real results, every known issue found along the way, and exactly what's left in the report itself. It replaces `additional-work/README__4_.md` and does not follow the structure of the default/basic README that exists elsewhere in this repo — this one is meant to be the comprehensive reference.
