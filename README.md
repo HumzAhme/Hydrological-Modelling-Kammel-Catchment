@@ -4,6 +4,8 @@ Conceptual rainfall-runoff modelling of the Kammel catchment (Bavaria, Germany) 
 
 This README documents the whole project as it stands: every data source, every model's real results, every known issue found along the way, and exactly what's left in the report itself. It replaces `additional-work/README__4_.md` and does not follow the structure of the default/basic README that exists elsewhere in this repo — this one is meant to be the comprehensive reference.
 
+[THE CODES AND CATCHMENT FILES ARE IN SEPARATE FOLDERS FOR ORGANIZATIONAL PURPOSE, TO RUN THEY HAVE TO BE EITHER IN THE SMAE FOLDER OR YOU HAVE TO MAKE AMMENDS IN THE CODE]
+
 > **Status legend:** ✅ done and verified · 🟡 not fully finished, or a real gap remains (used for anything not 100% complete, however small — nothing in this document is marked as flatly "not started")
 
 ---
