@@ -1,0 +1,24 @@
+GR4J (no snow) - Monte Carlo parameter uncertainty analysis - summary
+========================================================================
+Monte Carlo samples: 10000, top 1% kept = 100 sets per calibration period
+
+Calib A (1988-1999) ensemble: best KGE = 0.811, ensemble KGE range = [0.514, 0.811]
+Calib B (2000-2010) ensemble: best KGE = 0.811, ensemble KGE range = [0.507, 0.811]
+Correlation between KGE_A and KGE_B across all 10000 random draws: 0.995
+
+Parameter uncertainty (IQR of top-1% ensemble, normalised to % of search range
+- bigger % = more uncertain / less identifiable):
+ parameter norm_iqrA_pct norm_iqrB_pct
+        X1          18.0          12.7
+        X2          17.8          15.5
+        X3          30.9          29.9
+        X4           8.7           8.4
+
+Mean relative width of the 90% parametric-uncertainty band (Calib A ensemble), test period: 108% of median Qsim
+
+Properly-optimised (Calibration_Michel) parameter sets per period:
+  Calib A optimum: X1=1152.859, X2=0.284, X3=26.576, X4=2.042
+  Calib B optimum: X1=1164.390, X2=0.367, X3=18.059, X4=2.074
+Mean difference in test-period Qsim, optimum-of-B vs optimum-of-A: +9.5%
+NSE of optimum-of-B simulation against optimum-of-A simulation (agreement between the two): 0.951
+Mean test-period Qsim: optimum-of-A = 0.670 mm/d | optimum-of-B = 0.734 mm/d

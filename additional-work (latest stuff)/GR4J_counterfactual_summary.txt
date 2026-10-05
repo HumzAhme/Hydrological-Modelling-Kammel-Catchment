@@ -1,0 +1,28 @@
+GR4J counterfactual climate-change analysis - Kammel catchment
+================================================================
+Trend removed: DELTA_T = 1.4 degC, DELTA_P = -3% (see script header for sourcing)
+Period analysed: 1988-2010 (23 JJA seasons)
+
+Mean TOTAL climate-change effect on JJA discharge:         -15.0%
+Mean PRECIPITATION-only effect on JJA discharge:           -7.5%
+Mean TEMPERATURE-only effect on JJA discharge:             -8.5%
+
+Driest observed JJA season: 1998 (mean Q = 0.394 mm/d)
+
+Interpretation notes for the report:
+- With plain GR4J (no snow module), temperature can only affect
+  streamflow THROUGH potential evapotranspiration (Hargreaves PET),
+  since this model has no snow/melt process at all. The temperature-only
+  effect above is therefore entirely an evapotranspiration-demand signal,
+  not a snowmelt-timing signal. A model WITH a snow module (HBV, GR6J)
+  would likely show a materially different (and probably larger, since
+  it would also include shifted snowmelt timing) temperature-driven
+  effect for the same DELTA_T - a good, genuine point for the
+  'counterfactual analysis interpretation' discussion question about
+  model realism.
+- Because DELTA_P_PCT is small and precipitation is the dominant
+  streamflow driver, the precipitation-only effect and the total effect
+  should be fairly close in magnitude; the gap between them is
+  attributable to the temperature/PET pathway.
+- Replace DELTA_T / DELTA_P_PCT at the top of this script with your
+  instructor's specific CMIP6 value if one exists, and rerun.

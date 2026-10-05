@@ -1,0 +1,15 @@
+GR4J model - Kammel catchment - performance summary
+================================================================
+Calibration period 1988-1999: NSE = 0.702 | KGE = 0.853 | PBIAS = +0.2%
+Validation period  2000-2010: NSE = 0.653 | KGE = 0.802 | PBIAS = -7.6%
+Final calibration  1988-2010 (all obs.): NSE = 0.666 | KGE = 0.835 | PBIAS = +0.1%
+
+Best (final) parameter set used for the 2011-2020 prediction:
+  X1 = 1141.3876
+  X2 = 0.3360
+  X3 = 22.6464
+  X4 = 2.0420
+
+See GR4J_annual_performance_table.csv and GR4J_monthly_regime_table.csv
+for the year-by-year and month-by-month breakdowns.
+KEY OUTPUT: GR4J_validation_streamflow_2000_2010.csv (simulated Q for validation period)
